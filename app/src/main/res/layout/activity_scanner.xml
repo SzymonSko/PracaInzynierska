@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScannerActivity">
+
+
+    <ImageView
+        android:id="@+id/target_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+      />
+
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/target_image_view"
+        android:layout_alignTop="@+id/target_image_view"
+        android:layout_alignRight="@+id/target_image_view"
+        android:layout_alignBottom="@+id/target_image_view"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:text="Your image will be displayed here"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text=" gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSelect"
+            android:background="@drawable/button_1" />
+        <Button
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCount"
+            android:background="@drawable/button_1" />
+        <Button
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="CAMERA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCamera"
+            android:background="@drawable/button_1" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

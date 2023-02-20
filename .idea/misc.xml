@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/border.xml" value="0.106" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/button_1.xml" value="0.106" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/button_2.xml" value="0.2365" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/content_background.xml" value="0.274" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2365" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/ic_baseline_contact_mail_24.xml" value="0.2365" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.3675" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2365" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/ic_hide_background.xml" value="0.2365" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2365" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/ic_show_background.xml" value="0.2365" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/ic_splash_background.xml" value="0.3675" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/ic_wave.xml" value="0.3675" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/login_background.xml" value="0.2725" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/main_background.xml" value="0.1305" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/register_background.xml" value="0.2725" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/splash_background.xml" value="0.3675" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/top_background.xml" value="0.1" />
+        <entry key="..\:/Skoczylas/app/src/main/res/drawable/welcome_background.xml" value="0.3675" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_details.xml" value="0.33" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_edit.xml" value="0.2652439024390244" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_forgot.xml" value="0.17395833333333333" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_history.xml" value="0.26627218934911245" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_history_holder.xml" value="0.4" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_scanned.xml" value="0.25" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_scanner.xml" value="0.25" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_upload_profile_picture.xml" value="0.30085470085470084" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/activity_welcome.xml" value="0.30085470085470084" />
+        <entry key="..\:/Skoczylas/app/src/main/res/layout/history_layout.xml" value="0.22" />
+        <entry key="..\:/Skoczylas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2155" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

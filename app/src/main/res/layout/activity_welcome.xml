@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/welcome_background">
+
+    <TextView
+        android:id="@+id/WelcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome in Range Counter"
+        android:textSize="32dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/WelcomeText"
+        android:layout_centerHorizontal="true"
+        android:text="We will help you with today's shooting"
+        android:textSize="18dp" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_1"
+        android:backgroundTint="#0099ff"
+        android:text="Log In" />
+
+        <Button
+            android:id="@+id/btnSignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnLogin"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border"
+            android:text="Sing In" />
+
+</RelativeLayout>

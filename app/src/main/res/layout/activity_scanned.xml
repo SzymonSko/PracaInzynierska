@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScannedActivity">
+
+    <ImageView
+        android:id="@+id/target_image_show"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_margin="20dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/target_image_show"
+        android:layout_marginTop="30dp"
+        android:text="Points: "
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/wind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:layout_marginTop="30dp"
+        android:hint="Enter wind speed: "
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/guntype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wind"
+        android:layout_margin="30dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text=" Add to history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdd"
+            android:background="@drawable/button_1" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDelete"
+            android:background="@drawable/button_1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

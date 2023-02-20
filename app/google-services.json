@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "138978403128",
+    "firebase_url": "https://pracainzynierska-30ee7-default-rtdb.firebaseio.com",
+    "project_id": "pracainzynierska-30ee7",
+    "storage_bucket": "pracainzynierska-30ee7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138978403128:android:749b79200725c9dbb697cd",
+        "android_client_info": {
+          "package_name": "com.example.inzynierka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138978403128-8seqn3s9qhv4d2ik899tdfrpni5atlo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCENEynfFwE-s0kKafSKn-bn2hz_RRvVnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138978403128-8seqn3s9qhv4d2ik899tdfrpni5atlo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138978403128:android:796b1a580c825657b697cd",
+        "android_client_info": {
+          "package_name": "com.example.skoczylas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138978403128-8seqn3s9qhv4d2ik899tdfrpni5atlo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCENEynfFwE-s0kKafSKn-bn2hz_RRvVnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138978403128-8seqn3s9qhv4d2ik899tdfrpni5atlo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
